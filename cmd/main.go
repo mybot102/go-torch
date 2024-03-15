@@ -97,7 +97,7 @@ func main() {
 
 	router.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"message": "Meow~",
+			"message": "MoFangCloud",
 			"version": "Golang Edition",
 			"ref":     version,
 		})
